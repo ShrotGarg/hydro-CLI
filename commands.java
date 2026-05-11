@@ -1,3 +1,3 @@
 public interface commands{
-    void execute();
+    void execute() throws InterruptedException;
 }
