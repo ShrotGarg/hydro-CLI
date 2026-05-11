@@ -1,0 +1,7 @@
+java hydro is the basis of all commands and must be present to execute the code.
+
+time -> print the current time in ASCII letters
+matrix -> prints the matrix rain effect like cmatrix on linux
+matrix --[color] -> prints the matrix rain effect but the chars are [color] instead of green
+matrix --[color] --[speed] -> By default, the speed varies by 5 but it'll vary by [speed] along with droplets being [color]
+matrix --[speed] -> Changes speed variation from 5 to [speed]
