@@ -8,6 +8,6 @@ public class hydro{
         map.put("matrix", new Matrix());
 
         commands obj = map.get(args[0]);
-        obj.execute();
+        obj.execute(args);
     }
 }
