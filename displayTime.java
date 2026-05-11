@@ -1,7 +1,9 @@
 import java.util.*;
 public class displayTime implements commands{
+
     @Override
-    public void execute(){
+    //finds and then prints time
+    public void execute(String[] args){
         Calendar obj = Calendar.getInstance();
 
         int hour = obj.get(Calendar.HOUR);
@@ -32,6 +34,7 @@ public class displayTime implements commands{
         System.out.println();
     }
 
+    //Array to print the actual time
     void print(int time, int i){
         String[] zero = {" __ ", "|  |", "|__|"};
         String[] one = {"    ", "   |", "   |"};
